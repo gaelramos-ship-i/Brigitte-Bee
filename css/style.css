@@ -115,6 +115,53 @@ header nav ul{
     padding: 10px 20px;
 }
 
+/* Section 2 */
+
+.galerie{
+    max-width: 1903px;
+    margin: auto;
+    display: flex;
+}
+
+.galerie article:nth-child(1){
+    width: 100%;
+    padding: 50px;
+}
+
+.galerie article h2{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.background{
+    background: #FBBBCD;
+}
+
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid4 img{
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid2 img{
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
+}
+
 /* Footer */
 
 footer{
