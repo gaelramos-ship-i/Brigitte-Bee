@@ -50,3 +50,31 @@ header nav ul{
     display: flex;
     gap: 20px;
 }
+
+/* Footer */
+
+footer{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+
+footer nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 40px;
+}
+
+footer p{
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer nav p a{
+    font-weight: 400;
+}
