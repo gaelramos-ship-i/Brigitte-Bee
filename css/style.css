@@ -124,8 +124,8 @@ header nav ul{
 }
 
 .galerie article:nth-child(1){
-    width: 100%;
-    padding: 50px;
+    width: 69%;
+    padding: 100px;
 }
 
 .galerie article h2{
@@ -133,7 +133,7 @@ header nav ul{
     font-weight: 400;
     font-size: 45px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .background{
@@ -160,6 +160,12 @@ header nav ul{
     width: 95%;
     height: 400px;
     object-fit: cover;
+}
+
+.galerie article p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 /* Footer */
