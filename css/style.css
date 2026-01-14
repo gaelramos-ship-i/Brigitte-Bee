@@ -30,7 +30,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px 10px;
+    padding: 10px;
 }
 
 header nav ul{
@@ -58,12 +58,19 @@ header nav ul{
     margin: auto;
 }
 
-.section1 div{
+.section1 > div:nth-child(1){
     display: flex;
+    justify-content: space-between;
+    background-image: url("../img/section1/background-photo.png");
+    background-repeat: no-repeat;
+    background-size: 64%;
+    background-position: 131%;
+    padding: 80px;
+    padding-left: 0;
 }
 
 .profil{
-    width: 33%;
+    width: 35%;
     margin: auto 0;
 }
 
