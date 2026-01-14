@@ -51,6 +51,52 @@ header nav ul{
     gap: 20px;
 }
 
+/* Section 1 */
+
+.section1{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.section1 div{
+    display: flex;
+}
+
+.profil{
+    width: 33%;
+}
+
+.profil div{
+    display: flex;
+    align-items: center;
+    color: #CC3900;
+    gap: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.profil div hr{
+    width: 50px;
+}
+
+.profil h1{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.profil h2{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.profil p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
 /* Footer */
 
 footer{
@@ -63,7 +109,7 @@ footer{
     padding: 40px 10px;
 }
 
-footer nav ul{
+footer div ul{
     list-style: none;
     display: flex;
     padding: 0;
@@ -75,6 +121,6 @@ footer p{
     text-align: center;
 }
 
-footer nav p a{
+footer div p a{
     font-weight: 400;
 }
