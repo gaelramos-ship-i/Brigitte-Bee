@@ -1,0 +1,85 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General */
+
+*{
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+
+a:hover{
+    color: #CC3900;
+    transition: all 0.3s ease-out;
+}
+
+.btn{
+    border: 1px solid #CC3900;
+    padding: 10px 20px;
+}
+
+/* Header */
+
+header{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 40px;
+}
+
+#active{
+    color: #CC3900;
+}
+
+.icons{
+    color: #CC3900;
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Footer */
+
+footer{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+
+footer div ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 40px;
+}
+
+footer p{
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer div p a{
+    font-weight: 400;
+}
