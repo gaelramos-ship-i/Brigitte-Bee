@@ -102,6 +102,10 @@ header nav ul{
 .formulaire{
     width: 455px;
     margin: auto 0;
+    background-image: url("../img/section1/background-photo.png");
+    background-repeat: no-repeat;
+    background-position: 130%;
+    padding-right: 230px;
 }
 
 form input{
