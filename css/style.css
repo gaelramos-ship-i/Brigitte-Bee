@@ -173,7 +173,7 @@ header nav ul{
 .section3{
     max-width: 1440px;
     margin: auto;
-    padding: 100px 0;
+    padding: 100px 0 150px;
 }
 
 .section3 h2{
@@ -205,6 +205,54 @@ header nav ul{
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 10px;
+}
+
+.section4{
+    background: #F7F7F7;
+    padding-bottom: 100px;
+}
+
+.size{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.section4 h2{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section4 article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section4 article img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section4 article div h3{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0;
+}
+.section4 article div p{
+    font-size: 14px;
+}
+
+.flexDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
 }
 
 /* Footer */
