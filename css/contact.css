@@ -56,6 +56,81 @@ header nav ul{
     gap: 20px;
 }
 
+/* Section Contact */
+
+.section1{
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.section1 article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section1 article div i{
+    color: #CC3900;
+    font-size: 16px;
+}
+
+.section1 article div h2{
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.size{
+    width: 77%;
+}
+
+.section1 p{
+    margin-bottom: 20px;
+}
+
+.size div{
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.size div p{
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 20px;
+}
+
+.formulaire{
+    width: 455px;
+    margin: auto 0;
+}
+
+form input{
+    width: 100%;
+    margin: 10px 0;
+}
+
+form textarea{
+    width: 100%;
+    height: 183px;
+    margin: 10px 0;
+}
+
+form label{
+    font-size: 16px;
+}
+
+form div:nth-last-child(1){
+    background: #FBBBCD;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form div a{
+    color: #fff;
+}
+
 /* Footer */
 
 footer{

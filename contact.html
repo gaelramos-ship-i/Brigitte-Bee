@@ -6,6 +6,8 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./css/contact.css">
     <script src="https://kit.fontawesome.com/f35c9641f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mobile_2" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
 </head>
 <body>
 
@@ -16,7 +18,7 @@
 
         <nav>
             <ul>
-                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="/index.html">Accueil</a></li>
                 <li><a href="#">La galerie</a></li>
                 <li><a href="#">Les oeuvres</a></li>
                 <li><a href="#">Les artistes</a></li>
@@ -32,6 +34,49 @@
         </div>
     </header>
 
+    <main>
+        <section class="section1">
+            <article>
+                <div class="size">
+                    <h2>Contact</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <div>
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <p>Adresse <br> 1234 N Spring St, Los Angeles, CA 90012, United States.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <p>Telephone <br> +01 - 123 456 7890</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>Email <br> mail@exemple.com</p>
+                    </div>
+                </div>
+                <div class="formulaire">
+                    <form action="contact">
+                        <div>
+                            <label for="identite">Nom et prénom</label>
+                            <input type="text" id="identite" placeholder="Nom et prénom" required>
+                        </div>
+                        <div>
+                            <label for="mail">Email</label>
+                            <input type="text" id="mail" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <label for="sujet">Sujet</label>
+                            <textarea name="sujet" id="sujet" placeholder="Sujet"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#">Envoyer</a>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+
     <footer>
         <a href="/">
             <img src="img/logo.png" alt="logo image" width="180px">
@@ -39,12 +84,12 @@
 
         <div>
             <ul>
-                <li><a id="active" href="/">Accueil</a></li>
+                <li><a href="/index.html">Accueil</a></li>
                 <li><a href="#">La galerie</a></li>
                 <li><a href="#">Les oeuvres</a></li>
                 <li><a href="#">Les artistes</a></li>
                 <li><a href="#">Les actualités</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a id="active" href="#">Contact</a></li>
             </ul>
             <p>© 2023 <a href="https://storycom.fr/">StoryCom</a> & MMI – Mentions Légales</p>
         </div>
@@ -55,6 +100,6 @@
             <i class="fa-brands fa-facebook"></i>
         </div>
     </footer>
-    
+
 </body>
 </html>
