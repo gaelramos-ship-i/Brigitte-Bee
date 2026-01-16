@@ -26,6 +26,10 @@ a:hover{
     padding: 10px 20px;
 }
 
+#burger{
+    display: none;
+}
+
 /* Header */
 
 header{
@@ -149,4 +153,49 @@ footer p{
 
 footer div p a{
     font-weight: 400;
+}
+
+
+@media screen and (max-width:1024px){
+
+    #burger{
+        display: block;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    footer div{
+        display: none;
+    }
+
+    .actu{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
+    }
+
+    .btnActu{
+        grid-column: 1/3;
+    }
+}
+
+
+
+/* Responsive mobile */
+
+@media screen and (max-width:767px){
+
+    .actu{
+        display: block;
+    }
+
+    .actu div{
+        width: 80%;
+    }
+
+    .section1 article h2{
+        font-size: 30px;
+    }
+    
 }
