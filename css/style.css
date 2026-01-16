@@ -117,8 +117,11 @@ header nav ul{
 
 /* Section 2 */
 
+.section2{
+    padding: 100px 0;
+}
+
 .galerie{
-    max-width: 1903px;
     margin: auto;
     display: flex;
 }
@@ -126,6 +129,7 @@ header nav ul{
 .galerie article:nth-child(1){
     width: 69%;
     padding: 100px;
+    padding-bottom: 0;
 }
 
 .galerie article h2{
@@ -138,28 +142,32 @@ header nav ul{
 
 .background{
     background: #FBBBCD;
+    width: 30%;
 }
 
-.grid4{
+.imgSize{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 15px;
 }
 
-.grid4 img{
-    width: 95%;
+.imgSize img{
+    width: 100%;
     height: 400px;
     object-fit: cover;
 }
 
-.grid2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.imgSize p{
+    text-decoration: underline ;
 }
 
-.grid2 img{
-    width: 95%;
-    height: 400px;
-    object-fit: cover;
+.imgSize img:nth-child(5){
+    grid-column: 1/3;
+}
+
+.imgSize img:nth-child(6){
+    grid-column: 3/5;
 }
 
 .galerie article p{
@@ -327,6 +335,7 @@ header nav ul{
     margin: 0 auto;
     color: #fff;
     margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .section6 div article p{
