@@ -26,6 +26,10 @@ a:hover{
     padding: 10px 20px;
 }
 
+#burger{
+    display: none;
+}
+
 /* Header */
 
 header{
@@ -161,4 +165,47 @@ footer p{
 
 footer div p a{
     font-weight: 400;
+}
+
+@media screen and (max-width:1024px){
+
+    #burger{
+        display: block;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    footer div{
+        display: none;
+    }
+
+    .section1 article{
+        margin: 0 20px;
+    }
+
+    .formulaire {
+        width: 307px;
+        padding-right: 168px;
+    }
+}
+
+
+/* Responsive mobile */
+
+@media screen and (max-width:767px){
+
+    .section1 article{
+        grid-template-columns: 1fr;
+    }
+
+    .formulaire{
+        margin-top: 40px;
+    }
+
+    .formulaire {
+        width: 455px;
+        padding-right: 180px;
+    }
 }
