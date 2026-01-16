@@ -26,6 +26,10 @@ a:hover{
     padding: 10px 20px;
 }
 
+#burger{
+    display: none;
+}
+
 /* Header */
 
 header{
@@ -72,6 +76,10 @@ header nav ul{
     background-position: 131%;
     padding: 80px;
     padding-left: 0;
+}
+
+.section1 div img{
+    object-fit: cover;
 }
 
 .profil{
@@ -380,4 +388,30 @@ footer p{
 
 footer div p a{
     font-weight: 400;
+}
+
+
+
+
+/* Responsive tablette */
+
+@media screen and (max-width:1024px){
+
+    #burger{
+        display: block;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .section1 div img{
+        width: 300px;
+    }
+}
+
+/* Responsive mobile */
+
+@media screen and (max-width:767px){
+
 }
