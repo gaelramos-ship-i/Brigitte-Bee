@@ -1,6 +1,6 @@
 # Project Brigitte Bee
 
-As part of the "Language à la carte" training at La Plateforme school, the skillfacile project consists of reproducing the integration of the site in HTML and CSS.
+As part of the "Language à la carte" training at La Plateforme school, this project consists of reproducing the integration of the site in HTML and CSS.
 
 ## Getting Started
 
